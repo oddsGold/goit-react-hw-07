@@ -1,0 +1,29 @@
+.contact {
+    display: inline-grid;
+    border: 2px solid #000;
+    grid-template-columns: 60% 1fr;
+    align-items: center;
+    max-width: 320px;
+    width: 100%;
+    padding: 15px 10px;
+    border-radius: 3px;
+}
+.contact-info {
+
+}
+.contact-info-row {
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    align-items: center;
+    margin: 10px 0;
+}
+.contact-info-row img{
+    max-width: 25px;
+}
+.contact-btn {
+    text-align: center;
+}
+.contact-btn button {
+    cursor: pointer;
+    padding: 5px 10px;
+}
